@@ -1,0 +1,19 @@
+{
+  "background": {
+    "scripts": [      
+      "config.js",
+      "background.js"
+    ]
+  },
+   "description": "Рассылка картинок на стены",
+   "icons": {
+      "128": "imageinfo-128.png",
+      "16": "imageinfo-16.png",
+      "32": "imageinfo-32.png"
+   },
+   "manifest_version": 2,
+   "homepage_url": "https://vk.com/id86382408",
+   "name": "Отправить на стену",
+   "permissions": [ "contextMenus", "tabs", "storage" , "http://*/*", "https://*/*" ],
+   "version": "1.0.3"
+}
